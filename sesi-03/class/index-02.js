@@ -7,6 +7,8 @@ class Person {
   }
 }
 
+//class Employee di definisikan sebagai turunan dari Person yang secara otomatis diwariskan ke Employee
+
 class Employee extends Person {
   doWork() {
     return this._name + " is working";

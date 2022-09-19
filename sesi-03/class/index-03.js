@@ -18,6 +18,7 @@ class Employee extends Person {
     this._title = title;
   }
 
+  //fungsi untuk call construct data di class Employee
   doTitle() {
     return "Hello, " + this._title + " " + this._name + ". Selamat Malam..";
   }
@@ -27,5 +28,5 @@ let scott = new Employee("Scott Moss");
 console.log(scott.getName());
 console.log(scott.doWork());
 
-let scottConstructor = new Employee("Arif", "Tuan");
+let scottConstructor = new Employee("Arizfi", "Nona");
 console.log(scottConstructor.doTitle());
